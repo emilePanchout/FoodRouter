@@ -162,6 +162,18 @@ public class Planner : MonoBehaviour
                     go.GetComponent<CartItem>().nameText.text = ingredient.name;
                     go.GetComponent<CartItem>().quantity.text = ingredient.quantity.ToString() + ingredient.unit;
                 }
+                else if(ingredient.quantity < 0)
+                {
+                    if (addTitle)
+                    {
+                        Instantiate(categoryPrefab, cartGrid);
+                        addTitle = false;
+                    }
+
+                    GameObject go = Instantiate(itemPrefab, cartGrid);
+                    go.GetComponent<CartItem>().nameText.text = ingredient.name;
+                    go.GetComponent<CartItem>().quantity.text = "";
+                }
             }
 
         }
