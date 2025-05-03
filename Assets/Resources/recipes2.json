@@ -17,17 +17,17 @@
         {
           "name": "Curcuma en poudre",
           "quantity": -1,
-          "unit": null
+          "unit": "pincée"
         },
         {
           "name": "Piment de Cayenne",
           "quantity": -1,
-          "unit": null
+          "unit": "pincée"
         },
         {
           "name": "Cumin en graine",
           "quantity": -1,
-          "unit": null
+          "unit": "pincée"
         },
         {
           "name": "Beurre salé",
@@ -37,7 +37,7 @@
         {
           "name": "Oeuf",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Huile de colza",
@@ -46,13 +46,13 @@
         },
         {
           "name": "Eau",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1,
+          "unit": "l"
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 5,
+          "unit": "g"
         }
       ]
     },
@@ -73,17 +73,17 @@
         {
           "name": "Céleri branche",
           "quantity": 1,
-          "unit": "branches"
+          "unit": "pièce"
         },
         {
           "name": "Échalote",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Bouquet garni",
@@ -91,7 +91,7 @@
           "unit": "bouquet"
         },
         {
-          "name": "Clous de girofle",
+          "name": "Clou de girofle",
           "quantity": 4,
           "unit": "pièces"
         },
@@ -112,8 +112,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 10,
+          "unit": "g/L"
         },
         {
           "name": "Beurre salé",
@@ -139,27 +139,27 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Carotte",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Tomate",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Céleri branche",
           "quantity": 3,
-          "unit": "branches"
+          "unit": "pièces"
         },
         {
           "name": "Coulis de tomates",
-          "quantity": 150,
-          "unit": "g"
+          "quantity": 10,
+          "unit": "cuillères à soupe"
         },
         {
           "name": "Boeuf haché",
@@ -173,13 +173,13 @@
         },
         {
           "name": "Vin blanc sec",
-          "quantity": 0.15,
-          "unit": "l"
+          "quantity": 1,
+          "unit": "verre"
         },
         {
           "name": "Bouillon de boeuf",
-          "quantity": 1,
-          "unit": "cubes"
+          "quantity": 10,
+          "unit": "g"
         },
         {
           "name": "Huile d'olive",
@@ -239,8 +239,8 @@
         },
         {
           "name": "Huile de tournesol",
-          "quantity": -1,
-          "unit": null
+          "quantity": 3,
+          "unit": "cuillères à soupe"
         },
         {
           "name": "Farine",
@@ -269,14 +269,14 @@
       "category": "Plat",
       "ingredients": [
         {
-          "name": "Lard salé T",
+          "name": "Lard salé",
           "quantity": 2,
           "unit": "tranches"
         },
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Cheddar",
@@ -284,14 +284,14 @@
           "unit": "tranches"
         },
         {
-          "name": "Cornichons",
+          "name": "Cornichon",
           "quantity": 0.5,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Tomate",
-          "quantity": 1,
-          "unit": "pièces"
+          "quantity": 2,
+          "unit": "tranches"
         },
         {
           "name": "Pain sésame",
@@ -301,7 +301,7 @@
         {
           "name": "Steak haché",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Sauce burger",
@@ -322,22 +322,22 @@
         {
           "name": "Aubergine",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Céleri branche",
           "quantity": 1,
-          "unit": "branches"
+          "unit": "branche"
         },
         {
           "name": "Oignon blanc",
           "quantity": 0.5,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Tomate",
-          "quantity": 1,
-          "unit": "pièces"
+          "quantity": 150,
+          "unit": "g"
         },
         {
           "name": "Vinaigre de vin rouge",
@@ -351,8 +351,8 @@
         },
         {
           "name": "Huile d'olive",
-          "quantity": -1,
-          "unit": null
+          "quantity": 80,
+          "unit": "g"
         },
         {
           "name": "Olives vertes",
@@ -417,8 +417,8 @@
         },
         {
           "name": "Moutarde",
-          "quantity": -1,
-          "unit": null
+          "quantity": 4,
+          "unit": "cuillères à soupe"
         },
         {
           "name": "Farine",
@@ -474,7 +474,7 @@
         {
           "name": "Piment Jalapenos",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Épices chili",
@@ -483,13 +483,13 @@
         },
         {
           "name": "Cumin en poudre",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2,
+          "unit": "cuillères à café"
         },
         {
           "name": "Paprika",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1,
+          "unit": "cuillère à café"
         },
         {
           "name": "Concentré de tomate",
@@ -498,8 +498,8 @@
         },
         {
           "name": "Bouillon de boeuf",
-          "quantity": 1,
-          "unit": "cubes"
+          "quantity": 10,
+          "unit": "g"
         },
         {
           "name": "Boeuf haché",
@@ -513,8 +513,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 10,
+          "unit": "g"
         }
       ]
     },
@@ -539,18 +539,18 @@
         },
         {
           "name": "Vin blanc",
-          "quantity": 0.125,
-          "unit": "l"
+          "quantity": 0.75,
+          "unit": "verre"
         },
         {
           "name": "Eau ou bouillon",
-          "quantity": -1,
-          "unit": null
+          "quantity": 0.75,
+          "unit": "verre"
         },
         {
           "name": "Concentré de tomate",
-          "quantity": 15,
-          "unit": "g"
+          "quantity": 1,
+          "unit": "cuillère à soupe"
         },
         {
           "name": "Cornichons",
@@ -559,13 +559,13 @@
         },
         {
           "name": "Persil frais",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1,
+          "unit": "cuillère à soupe"
         },
         {
           "name": "Farine",
-          "quantity": 1,
-          "unit": "g"
+          "quantity": -1,
+          "unit": null
         },
         {
           "name": "Moutarde",
@@ -620,8 +620,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 10,
+          "unit": "g"
         }
       ]
     },
@@ -632,12 +632,12 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Gousse d'ail",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Lentilles corail",
@@ -656,13 +656,13 @@
         },
         {
           "name": "Curcuma en poudre",
-          "quantity": -1,
-          "unit": null
+          "quantity": 0.7,
+          "unit": "cuillère à café"
         },
         {
           "name": "Cumin en graine",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1.5,
+          "unit": "cuillères à café"
         },
         {
           "name": "Coriandre fraîche",
@@ -676,13 +676,13 @@
         },
         {
           "name": "Eau",
-          "quantity": -1,
-          "unit": null
+          "quantity": 0.1,
+          "unit": "l"
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 5,
+          "unit": "g"
         }
       ]
     },
@@ -697,8 +697,8 @@
         },
         {
           "name": "Vin blanc",
-          "quantity": 0.15,
-          "unit": "l"
+          "quantity": 1,
+          "unit": "verre"
         },
         {
           "name": "Crème épaisse",
@@ -712,8 +712,8 @@
         },
         {
           "name": "Moutarde",
-          "quantity": -1,
-          "unit": null
+          "quantity": 8,
+          "unit": "g"
         },
         {
           "name": "Beurre salé",
@@ -722,8 +722,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 3,
+          "unit": "g"
         }
       ]
     },
@@ -744,17 +744,17 @@
         {
           "name": "Aubergine",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Courgette",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Gousse d'ail",
@@ -778,13 +778,13 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 5,
+          "unit": "g"
         },
         {
           "name": "Poivre en poudre",
-          "quantity": -1,
-          "unit": null
+          "quantity": 5,
+          "unit": "g"
         }
       ]
     },
@@ -824,8 +824,8 @@
         },
         {
           "name": "Beurre salé",
-          "quantity": 5,
-          "unit": "g"
+          "quantity": -1,
+          "unit": null
         },
         {
           "name": "Sel",
@@ -871,17 +871,17 @@
         {
           "name": "Noix de muscade",
           "quantity": -1,
-          "unit": null
+          "unit": "pincée"
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 3,
+          "unit": "g"
         },
         {
           "name": "Poivre en poudre",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2,
+          "unit": "g"
         }
       ]
     },
@@ -937,13 +937,13 @@
         },
         {
           "name": "Tomates cerises",
-          "quantity": 40,
-          "unit": "g"
+          "quantity": 4,
+          "unit": "pièces"
         },
         {
           "name": "Parmesan",
-          "quantity": 10,
-          "unit": "g"
+          "quantity": -1,
+          "unit": null
         },
         {
           "name": "Basilic frais",
@@ -957,18 +957,18 @@
         },
         {
           "name": "Farine",
-          "quantity": 1,
-          "unit": "g"
+          "quantity": -1,
+          "unit": null
         },
         {
           "name": "Vin blanc",
-          "quantity": 0.15,
-          "unit": "l"
+          "quantity": -1,
+          "unit": null
         },
         {
           "name": "Bouillon de boeuf",
-          "quantity": 1,
-          "unit": "cubes"
+          "quantity": -1,
+          "unit": null
         },
         {
           "name": "Huile d'olive",
@@ -993,8 +993,8 @@
       "ingredients": [
         {
           "name": "Pomme de terre",
-          "quantity": 1000,
-          "unit": "g"
+          "quantity": 1,
+          "unit": "kg"
         },
         {
           "name": "Gousse d'ail",
@@ -1008,13 +1008,13 @@
         },
         {
           "name": "Poivre en poudre",
-          "quantity": -1,
-          "unit": null
+          "quantity": 4,
+          "unit": "g"
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 13,
+          "unit": "g"
         }
       ]
     },
@@ -1030,7 +1030,7 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Bouquet garni",
@@ -1038,7 +1038,7 @@
           "unit": "bouquet"
         },
         {
-          "name": "Langue de boeuf",
+          "name": "Langue de Boeuf",
           "quantity": 2000,
           "unit": "g"
         },
@@ -1059,18 +1059,18 @@
         },
         {
           "name": "Cornichons",
-          "quantity": 10,
-          "unit": "pièces"
+          "quantity": 40,
+          "unit": "g"
         },
         {
           "name": "Eau",
-          "quantity": -1,
-          "unit": null
+          "quantity": 3,
+          "unit": "l"
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 10,
+          "unit": "g/L"
         }
       ]
     },
@@ -1111,27 +1111,27 @@
 		{
 		  "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Carotte",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Tomate",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Céleri branche",
           "quantity": 3,
-          "unit": "branches"
+          "unit": "pièces"
         },
         {
           "name": "Coulis de tomates",
-          "quantity": 150,
-          "unit": "g"
+          "quantity": 10,
+          "unit": "cuillères à soupe"
         },
         {
           "name": "Boeuf haché",
@@ -1145,13 +1145,13 @@
         },
         {
           "name": "Vin blanc sec",
-          "quantity": 0.15,
-          "unit": "l"
+          "quantity": 1,
+          "unit": "verre"
         },
         {
           "name": "Bouillon de boeuf",
-          "quantity": 1,
-          "unit": "cubes"
+          "quantity": 10,
+          "unit": "g"
         },
         {
           "name": "Huile d'olive",
@@ -1182,7 +1182,7 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Saucisse au fenouil",
@@ -1196,13 +1196,13 @@
         },
         {
           "name": "Huile d'olive",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2,
+          "unit": "cuillères à soupe"
         },
         {
           "name": "Vin blanc",
-          "quantity": 0.075,
-          "unit": "l"
+          "quantity": 0.5,
+          "unit": "verre"
         },
         {
           "name": "Pecorino",
@@ -1223,7 +1223,7 @@
         {
           "name": "Courgette",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Haricots verts",
@@ -1238,7 +1238,7 @@
         {
           "name": "Aubergine",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Épinards",
@@ -1267,8 +1267,8 @@
         },
         {
           "name": "Pomme de terre",
-          "quantity": 150,
-          "unit": "g"
+          "quantity": 1,
+          "unit": "pièce"
         },
         {
           "name": "Blette",
@@ -1283,12 +1283,12 @@
         {
           "name": "Carotte",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Oignon blanc",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Pesto genovese",
@@ -1302,8 +1302,8 @@
         },
         {
           "name": "Eau",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2,
+          "unit": "l"
         },
         {
           "name": "Huile d'olive",
@@ -1329,12 +1329,12 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Carotte",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Gousse d'ail",
@@ -1344,7 +1344,7 @@
         {
           "name": "Citron jaune",
           "quantity": 0.5,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Vin blanc",
@@ -1353,13 +1353,13 @@
         },
         {
           "name": "Farine",
-          "quantity": 1,
-          "unit": "g"
+          "quantity": -1,
+          "unit": null
         },
         {
           "name": "Bouillon de boeuf",
-          "quantity": 1,
-          "unit": "cubes"
+          "quantity": -1,
+          "unit": null
         },
         {
           "name": "Laurier frais",
@@ -1368,8 +1368,8 @@
         },
         {
           "name": "Thym frais",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1,
+          "unit": "branche"
         },
         {
           "name": "Persil frais",
@@ -1399,8 +1399,8 @@
         },
         {
           "name": "Bouillon de légumes",
-          "quantity": 1,
-          "unit": "cubes"
+          "quantity": 0.25,
+          "unit": "l"
         },
         {
           "name": "Gousse d'ail",
@@ -1419,8 +1419,8 @@
         },
         {
           "name": "Huile d'olive",
-          "quantity": -1,
-          "unit": null
+          "quantity": 5,
+          "unit": "cuillères à soupe"
         },
         {
           "name": "Sel",
@@ -1451,12 +1451,12 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Gousse d'ail",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Mozzarella fior di latte",
@@ -1470,8 +1470,8 @@
         },
         {
           "name": "Huile d'olive",
-          "quantity": -1,
-          "unit": null
+          "quantity": 0.25,
+          "unit": "l"
         },
         {
           "name": "Basilic frais",
@@ -1480,8 +1480,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1,
+          "unit": "cuillère à soupe"
         },
         {
           "name": "Poivre",
@@ -1516,8 +1516,8 @@
         },
         {
           "name": "Poivre noir en grains",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1,
+          "unit": "cuillère à soupe"
         },
         {
           "name": "Sel",
@@ -1538,7 +1538,7 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Échalote",
@@ -1548,7 +1548,7 @@
         {
           "name": "Gousse d'ail",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Bouquet garni",
@@ -1576,7 +1576,7 @@
           "unit": "g"
         },
         {
-          "name": "Clous de girofle",
+          "name": "Clou de girofle",
           "quantity": 2,
           "unit": "pièces"
         },
@@ -1597,8 +1597,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 10,
+          "unit": "g/L"
         }
       ]
     },
@@ -1659,8 +1659,8 @@
         },
         {
           "name": "Lait",
-          "quantity": 0.15,
-          "unit": "l"
+          "quantity": 1,
+          "unit": "verre"
         },
         {
           "name": "Parmesan",
@@ -1674,13 +1674,13 @@
         },
         {
           "name": "Persil frais",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1,
+          "unit": "bouquet"
         },
         {
           "name": "Farine",
-          "quantity": 1,
-          "unit": "g"
+          "quantity": -1,
+          "unit": null
         },
         {
           "name": "Huile neutre",
@@ -1706,12 +1706,12 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Tranche de gingembre",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Gousse d'ail",
@@ -1736,7 +1736,7 @@
         {
           "name": "Pâte de curry",
           "quantity": 1,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère à soupe"
         },
         {
           "name": "Lait de coco",
@@ -1755,8 +1755,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 5,
+          "unit": "g"
         }
       ]
     },
@@ -1767,7 +1767,7 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Ciboulette fraîche",
@@ -1786,18 +1786,18 @@
         },
         {
           "name": "Moutarde",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2,
+          "unit": "cuillères à soupe"
         },
         {
           "name": "Moutarde à l'ancienne",
           "quantity": 1,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère à soupe"
         },
         {
           "name": "Vin blanc",
-          "quantity": 0.15,
-          "unit": "l"
+          "quantity": 1,
+          "unit": "verre"
         },
         {
           "name": "Huile neutre",
@@ -1806,8 +1806,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 6,
+          "unit": "g"
         }
       ]
     },
@@ -1838,12 +1838,12 @@
         {
           "name": "Noix de muscade",
           "quantity": -1,
-          "unit": null
+          "unit": "pincée"
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 8,
+          "unit": "g"
         }
       ]
     },
@@ -1854,7 +1854,7 @@
         {
           "name": "Pâte brisée",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Crème épaisse légère",
@@ -1873,13 +1873,13 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2,
+          "unit": "g"
         },
         {
           "name": "Poivre",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2,
+          "unit": "g"
         }
       ]
     },
@@ -1890,22 +1890,22 @@
         {
           "name": "Aubergine",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Courgette",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Poivron rouge",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Poivron vert",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Tomate",
@@ -1934,13 +1934,13 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 10,
+          "unit": "g"
         },
         {
           "name": "Poivre en poudre",
-          "quantity": -1,
-          "unit": null
+          "quantity": 5,
+          "unit": "g"
         }
       ]
     },
@@ -1966,16 +1966,16 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Gousse d'ail",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Vin blanc",
-          "quantity": 0.15,
+          "quantity": 0.1,
           "unit": "l"
         },
         {
@@ -1995,13 +1995,13 @@
         },
         {
           "name": "Huile d'olive",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1,
+          "unit": "cuillère à soupe"
         },
         {
           "name": "Eau",
-          "quantity": -1,
-          "unit": null
+          "quantity": 1,
+          "unit": "l"
         },
         {
           "name": "Persil frais",
@@ -2027,7 +2027,7 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Riz",
@@ -2036,8 +2036,8 @@
         },
         {
           "name": "Eau",
-          "quantity": -1,
-          "unit": null
+          "quantity": 0.75,
+          "unit": "l"
         },
         {
           "name": "Beurre salé",
@@ -2046,8 +2046,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2.5,
+          "unit": "g"
         }
       ]
     },
@@ -2072,8 +2072,8 @@
 		},
         { 
 		  "name": "Huile d'olive",       
-		  "quantity":  -1,
-		  "unit": null 
+		  "quantity":  3,
+		  "unit": "cuillères à soupe" 
 		},
         { 
 		  "name": "Jaune d'Oeuf",         
@@ -2083,12 +2083,12 @@
         { 
 		  "name": "Moutarde anglaise",   
 		  "quantity":  1,  
-		  "unit": "cuillères à café" 
+		  "unit": "cuillère à café" 
 		},
         { 
 		  "name": "Eau",                 
-		  "quantity":  -1,  
-		  "unit": null 
+		  "quantity":  2,  
+		  "unit": "cuillères à soupe" 
 		},
         { 
 		  "name": "Citron jaune",        
@@ -2097,18 +2097,18 @@
 		},
         { 
 		  "name": "Huile de tournesol",  
-		  "quantity": -1,  
-		  "unit": null
+		  "quantity": 0.2,  
+		  "unit": "l" 
 		},
         { 
 		  "name": "Sauce Worcestershire",
 		  "quantity":  1,  
-		  "unit": "cuillères à soupe" 
+		  "unit": "cuillère à soupe" 
 		},
         {
           "name": "Salade romaine",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Bacon",
@@ -2195,7 +2195,7 @@
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Gousse d'ail",
@@ -2204,8 +2204,8 @@
         },
         {
           "name": "Persil frais",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2,
+          "unit": "bottes"
         },
         {
           "name": "Boeuf haché",
@@ -2219,13 +2219,13 @@
         },
         {
           "name": "Poivre en poudre",
-          "quantity": -1,
-          "unit": null
+          "quantity": 10,
+          "unit": "g"
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 7,
+          "unit": "g"
         }
       ]
     },
@@ -2250,8 +2250,8 @@
         },
         {
           "name": "Crème épaisse",
-          "quantity": 300,
-          "unit": "g"
+          "quantity": 0.3,
+          "unit": "l"
         },
         {
           "name": "Pavé de saumon",
@@ -2260,13 +2260,13 @@
         },
         {
           "name": "Paprika",
-          "quantity": -1,
-          "unit": null
+          "quantity": 3,
+          "unit": "pincées"
         },
         {
           "name": "Vin blanc",
-          "quantity": 0.3,
-          "unit": "l"
+          "quantity": 2,
+          "unit": "verres"
         },
         {
           "name": "Huile d'olive",
@@ -2275,8 +2275,8 @@
         },
         {
           "name": "Sel",
-          "quantity": -1,
-          "unit": null
+          "quantity": 8,
+          "unit": "g"
         },
         {
           "name": "Poivre noir en grains",
@@ -2292,27 +2292,27 @@
         {
           "name": "Céleri branche",
           "quantity": 1,
-          "unit": "branches"
+          "unit": "branche"
         },
         {
           "name": "Poivron rouge",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Oignon",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Citron jaune",
           "quantity": 1,
-          "unit": "pièces"
+          "unit": "pièce"
         },
         {
           "name": "Piment d'Espelette",
-          "quantity": -1,
-          "unit": null
+          "quantity": 2,
+          "unit": "cuillères à soupe"
         },
         {
           "name": "Vinaigre de vin",
@@ -2342,8 +2342,8 @@
 		},
         { 
 		  "name": "Huile d'olive",  
-		  "quantity":   -1, 
-		  "unit": null 
+		  "quantity":   6, 
+		  "unit": "cuillères à soupe" 
 		},
         { 
 		  "name": "Gousse d'ail",            
@@ -2357,8 +2357,8 @@
 		},
         { 
 		  "name": "Persil frais",   
-		  "quantity":   -1, 
-		  "unit": null 
+		  "quantity":   1, 
+		  "unit": "botte" 
 		}
       ]
     },
@@ -2388,8 +2388,8 @@
 		},
         { 
 		  "name": "Tomate",         
-		  "quantity": 4, 
-		  "unit": "pièces" 
+		  "quantity": 400, 
+		  "unit": "g" 
 		},
         { 
 		  "name": "Ricotta salée",  
@@ -2398,8 +2398,8 @@
 		},
         { 
 		  "name": "Basilic frais",  
-		  "quantity": -1, 
-		  "unit": null 
+		  "quantity": 0.5, 
+		  "unit": "bouquet" 
 		},
 		{ 
 		  "name": "Huile d'olive",       
@@ -2486,8 +2486,8 @@
 		},
         { 
 		  "name": "Huile d'olive",  
-		  "quantity":   -1, 
-		  "unit": null 
+		  "quantity":   1, 
+		  "unit": "cuillère à soupe" 
 		},
         { 
 		  "name": "Vin blanc",      
@@ -2517,8 +2517,8 @@
 		},
         { 
 		  "name": "Piment d'Espelette", 
-		  "quantity":   -1, 
-		  "unit": null
+		  "quantity":   2, 
+		  "unit": "cuillères à café" 
 		},
         { 
 		  "name": "Gousse d'ail",               
@@ -2527,17 +2527,17 @@
 		},
         { 
 		  "name": "Huile d'olive",     
-		  "quantity": -1, 
+		  "quantity":   null, 
 		  "unit": null 
 		},
         { 
 		  "name": "Sel",               
-		  "quantity": -1, 
+		  "quantity":   null, 
 		  "unit": null 
 		},
         { 
 		  "name": "Poivre en poudre",  
-		  "quantity": -1, 
+		  "quantity":   null, 
 		  "unit": null 
 		}
       ]
@@ -2553,22 +2553,22 @@
 		},
         { 
 		  "name": "Anchois",       
-		  "quantity": 4, 
+		  "quantity":   4, 
 		  "unit": "filets" 
 		},
         { 
 		  "name": "Ail",            
-		  "quantity": 20, 
+		  "quantity":  20, 
 		  "unit": "g" 
 		},
         { 
 		  "name": "Huile d'olive",  
-		  "quantity": -1, 
-		  "unit": null 
+		  "quantity":  0.1, 
+		  "unit": "l" 
 		},
         { 
 		  "name": "Beurre salé",    
-		  "quantity": 20, 
+		  "quantity":  20, 
 		  "unit": "g" 
 		},
         { 
@@ -2578,23 +2578,23 @@
 		},
         { 
 		  "name": "Câpres",         
-		  "quantity": 15, 
+		  "quantity":  15, 
 		  "unit": "g" 
 		},
         { 
 		  "name": "Tomate",         
-		  "quantity": 6, 
-		  "unit": "pièces" 
+		  "quantity": 600, 
+		  "unit": "g" 
 		},
         { 
 		  "name": "Persil frais",   
-		  "quantity": -1, 
-		  "unit": null 
+		  "quantity":   5, 
+		  "unit": "g" 
 		},
         { 
 		  "name": "Eau",            
-		  "quantity": -1, 
-		  "unit": null 
+		  "quantity":   0.05, 
+		  "unit": "l" 
 		}
       ]
     },
@@ -2629,43 +2629,7 @@
 		},
         { 
 		  "name": "Poivre en poudre",
-		  "quantity":   -1, 
-		  "unit": null 
-		}
-      ]
-    },
-	{
-      "name": "Petit dej",
-      "category": "Plat",
-      "ingredients": [
-        { 
-		  "name": "Galette de maïs",      
-		  "quantity": 7, 
-		  "unit": "unités" 
-		},
-        { 
-		  "name": "Boeuf haché",      
-		  "quantity": 700, 
-		  "unit": "g" 
-		},
-        { 
-		  "name": "Emmental",           
-		  "quantity":   28, 
-		  "unit": "tranches" 
-		},
-        { 
-		  "name": "Oignon",       
-		  "quantity":  1, 
-		  "unit": "unités" 
-		},
-        { 
-		  "name": "Tomate",       
-		  "quantity": 1, 
-		  "unit": "unités" 
-		},
-        { 
-		  "name": "Coulis de tomates",
-		  "quantity":   50, 
+		  "quantity":   20, 
 		  "unit": "g" 
 		}
       ]
@@ -2676,12 +2640,12 @@
       "ingredients": [
         { "name": "Échalote",              "quantity":   1, "unit": "pièces" },
         { "name": "Fécule de maïs",        "quantity":   5, "unit": "g" },
-        { "name": "Poivre noir en grains", "quantity":  -1, "unit": null },
+        { "name": "Poivre noir en grains", "quantity":  10, "unit": "g" },
         { "name": "Crème liquide",         "quantity":  0.1, "unit": "l" },
-        { "name": "Bouillon de boeuf","quantity": 1, "unit": "cubes" },
+        { "name": "Cube de bouillon de Boeuf","quantity": 1, "unit": "cube" },
         { "name": "Beurre salé",           "quantity":  20, "unit": "g" },
         { "name": "Cognac",                "quantity":  0.1, "unit": "l" },
-        { "name": "Eau",                   "quantity":  -1, "unit": null }
+        { "name": "Eau",                   "quantity":  0.15, "unit": "l" }
       ]
     },
     {
@@ -2689,9 +2653,9 @@
       "category": "Sauce",
       "ingredients": [
         { "name": "Jaune d'Oeuf",   "quantity":   2, "unit": "pièces" },
-        { "name": "Moutarde",      "quantity":   -1, "unit": null },
-        { "name": "Huile neutre",  "quantity":  -1, "unit": null },
-        { "name": "Vinaigre blanc","quantity":   1, "unit": "cuillères à soupe" }
+        { "name": "Moutarde",      "quantity":   1, "unit": "cuillère à soupe" },
+        { "name": "Huile neutre",  "quantity":  0.4, "unit": "l" },
+        { "name": "Vinaigre blanc","quantity":   1, "unit": "cuillère à soupe" }
       ]
     },
     {
@@ -2711,10 +2675,10 @@
         { "name": "Piquillos",     "quantity":  50, "unit": "g" },
         { "name": "Tomate",        "quantity":   1, "unit": "pièces" },
         { "name": "Jaune d'Oeuf",   "quantity":   2, "unit": "pièces" },
-        { "name": "Moutarde",      "quantity":   -1, "unit": null },
-        { "name": "Huile neutre",  "quantity":  -1, "unit": null },
-        { "name": "Vinaigre blanc","quantity":   1, "unit": "cuillères à soupe" },
-        { "name": "Coulis de tomates","quantity":  20, "unit": "g" },
+        { "name": "Moutarde",      "quantity":   1, "unit": "cuillère à soupe" },
+        { "name": "Huile neutre",  "quantity":  0.4, "unit": "l" },
+        { "name": "Vinaigre blanc","quantity":   1, "unit": "cuillère à soupe" },
+        { "name": "Coulis de tomates","quantity":  0.02, "unit": "l" },
 		{ "name": "Piment d'Espelette",        "quantity": -1, "unit": null }
       ]
     },
@@ -2723,8 +2687,8 @@
       "category": "Sauce",
       "ingredients": [
         { "name": "Graines de coriandre","quantity": 10, "unit": "graines" },
-        { "name": "Huile d'olive",       "quantity": -1, "unit": null },
-        { "name": "Basilic frais",       "quantity": -1, "unit": null },
+        { "name": "Huile d'olive",       "quantity": 0.2, "unit": "l" },
+        { "name": "Basilic frais",       "quantity": 30, "unit": "g" },
         { "name": "Estragon frais",      "quantity": 30, "unit": "g" },
         { "name": "Cerfeuil frais",      "quantity": 30, "unit": "g" },
         { "name": "Citron jaune",        "quantity": 0.5, "unit": "pièces" },
@@ -2739,13 +2703,13 @@
         { "name": "Parmesan",            "quantity": 25,  "unit": "g" },
         { "name": "Gousse d'ail",                 "quantity":  1,  "unit": "pièces" },
         { "name": "Anchois",             "quantity":  2,  "unit": "filets" },
-        { "name": "Huile d'olive",       "quantity":  -1,  "unit": null },
+        { "name": "Huile d'olive",       "quantity":  2,  "unit": "cuillères à soupe" },
         { "name": "Jaune d'Oeuf",         "quantity":  1,  "unit": "pièces" },
-        { "name": "Moutarde anglaise",   "quantity":  1,  "unit": "cuillères à café" },
-        { "name": "Eau",                 "quantity":  -1,  "unit": null },
+        { "name": "Moutarde anglaise",   "quantity":  1,  "unit": "cuillère à café" },
+        { "name": "Eau",                 "quantity":  2,  "unit": "cuillères à soupe" },
         { "name": "Citron jaune",        "quantity": 0.5, "unit": "pièces" },
-        { "name": "Huile de tournesol",  "quantity": -1,  "unit": null },
-        { "name": "Sauce Worcestershire","quantity":  1,  "unit": "cuillères à soupe" }
+        { "name": "Huile de tournesol",  "quantity": 0.1,  "unit": "l" },
+        { "name": "Sauce Worcestershire","quantity":  1,  "unit": "cuillère à soupe" }
       ]
 	},
     {
@@ -2754,10 +2718,10 @@
       "ingredients": [
         { "name": "Gousse d'ail",            "quantity": 1,  "unit": "pièces" },
         { "name": "Jaune d'Oeuf",             "quantity":  4,  "unit": "pièces" },
-        { "name": "Huile d'olive S",       "quantity":  400,  "unit": "g" },
+        { "name": "Huile d'olive",       "quantity":  400,  "unit": "g" },
         { "name": "Oeuf",         "quantity":  1,  "unit": "pièces" },
-        { "name": "Huile neutre",   "quantity":  -1,  "unit": null },
-        { "name": "Piment d'Espelette", "quantity":  -1,  "unit": null }
+        { "name": "Huile neutre",   "quantity":  50,  "unit": "g" },
+        { "name": "Piment d'Espelette", "quantity":  null,  "unit": null }
 	  ]
     },
     {
@@ -2766,13 +2730,13 @@
       "ingredients": [
         { "name": "Anchois",       "quantity":   4, "unit": "filets" },
         { "name": "Ail",            "quantity":  20, "unit": "g" },
-        { "name": "Huile d'olive",  "quantity":  -1, "unit": null },
+        { "name": "Huile d'olive",  "quantity":  0.1, "unit": "l" },
         { "name": "Beurre salé",    "quantity":  20, "unit": "g" },
         { "name": "Olives noires",  "quantity": 120, "unit": "g" },
         { "name": "Câpres",         "quantity":  15, "unit": "g" },
-        { "name": "Tomate",         "quantity": 6, "unit": "pièces" },
-        { "name": "Persil frais",   "quantity":   -1, "unit": null },
-        { "name": "Eau",            "quantity":   -1, "unit": null }
+        { "name": "Tomate",         "quantity": 600, "unit": "g" },
+        { "name": "Persil frais",   "quantity":   5, "unit": "g" },
+        { "name": "Eau",            "quantity":   0.05, "unit": "l" }
       ]
     }
   ]

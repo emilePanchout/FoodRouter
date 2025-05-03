@@ -1,12 +1,16 @@
 {
   "primeur": [
     {
+      "name": "Ail",
+      "unit": ""
+    },
+    {
       "name": "Aubergine",
       "unit": ""
     },
     {
       "name": "Basilic frais",
-      "unit": ""
+      "unit": "bouquet"
     },
     {
       "name": "Blanc de poireau",
@@ -14,31 +18,35 @@
     },
     {
       "name": "Blette",
-      "unit": "botte"
+      "unit": ""
     },
-	{
+    {
+      "name": "Persil haché",
+      "unit": ""
+    },
+    {
       "name": "Haricots borlotti frais",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Piment rouge",
       "unit": ""
     },
     {
       "name": "Haricots verts",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Petits pois",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Courge",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Tomates rouges",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Tranche de gingembre",
@@ -46,7 +54,7 @@
     },
     {
       "name": "Épinards",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Carotte",
@@ -54,10 +62,14 @@
     },
     {
       "name": "Champignons",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Ciboulette fraîche",
+      "unit": ""
+    },
+    {
+      "name": "Citron",
       "unit": ""
     },
     {
@@ -82,7 +94,7 @@
     },
     {
       "name": "Laurier frais",
-      "unit": "feuille"
+      "unit": ""
     },
     {
       "name": "Oignon",
@@ -94,7 +106,7 @@
     },
     {
       "name": "Oignon rouge",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Origan frais",
@@ -118,11 +130,11 @@
     },
     {
       "name": "Pomme de terre",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Pulpe de tomates",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Romarin frais",
@@ -134,7 +146,7 @@
     },
     {
       "name": "Sauge fraîche",
-      "unit": "feuille"
+      "unit": ""
     },
     {
       "name": "Thym frais",
@@ -146,9 +158,9 @@
     },
     {
       "name": "Tomates cerises",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Gousse d'ail",
       "unit": ""
     },
@@ -158,29 +170,29 @@
     }
   ],
   "boucherie": [
-	{
+    {
       "name": "Boeuf (gîte ou tendron)",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Boeuf (gîte, macreuse)",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Boeuf (gîte,paleron,macreuse)",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Boeuf haché",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Pancetta",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Chair à saucisse",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Côte de porc",
@@ -196,11 +208,11 @@
     },
     {
       "name": "Filet de poulet",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Guanciale",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Jarret de veau",
@@ -208,15 +220,15 @@
     },
     {
       "name": "Langue de boeuf",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Poitrine de porc",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Saucisse au fenouil",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Saucisse de Toulouse",
@@ -227,46 +239,50 @@
       "unit": ""
     },
     {
+      "name": "Tranches de veau (quasi, rumsteak)",
+      "unit": ""
+    },
+    {
       "name": "Veau (collier, épaule, flanchet)",
-      "unit": "g"
-	},
-	{
+      "unit": ""
+    },
+    {
       "name": "Jambon cru",
-      "unit": "tranche"
+      "unit": ""
     },
-	{
+    {
+      "name": "Langue de Boeuf",
+      "unit": ""
+    },
+    {
       "name": "Lard salé",
-      "unit": "g"
+      "unit": ""
     },
-	{
-	  "name": "Lard salé T",
-	  "unit": "tranche"
-	},
-	{
+    {
       "name": "Veau (quasi, rumsteak)",
       "unit": ""
     },
     {
-      "name": "Boeuf (gîte, macreuse)",
-      "unit": "g"
+      "name": "boeuf (gîte, macreuse)",
+      "unit": ""
     },
     {
       "name": "Lard épais fumé",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Bacon",
-      "unit": "tranche"
+      "unit": ""
     }
   ],
   "poissonerie": [
     {
       "name": "Anchois",
-      "unit": "filet"
+      "unit": ""
     },
     {
       "name": "Crevettes précuites",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Pavé de saumon",
@@ -276,47 +292,47 @@
   "crèmerie": [
     {
       "name": "Beurre doux",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Beurre salé",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Crème liquide",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Crème épaisse",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Cheddar",
-      "unit": "tranche"
+      "unit": ""
     },
     {
       "name": "Crème fraîche",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Crème liquide entière",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Crème épaisse légère",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Fromage blanc",
-      "unit": "g"
+      "unit": ""
     },
-	{
-	  "name": "Lait entier",
-	  "unit": "L"
-	},
-	{
+    {
+      "name": "Lait demi-écrémé",
+      "unit": ""
+    },
+    {
       "name": "Lait",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Mozzarella fior di latte",
@@ -324,45 +340,41 @@
     },
     {
       "name": "Parmesan",
-      "unit": "g"
+      "unit": ""
     },
-	{
-	  "name": "Emmental",
-	  "unit": "tranche"
-	},
     {
       "name": "Pecorino",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Saindoux",
-      "unit": "càs"
+      "unit": ""
     },
     {
       "name": "Ricotta salée",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Yaourt nature",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Beurre",
-      "unit": "g"
-	}
+      "unit": ""
+    }
   ],
   "épicerie": [
     {
       "name": "Bouillon de boeuf",
-      "unit": "cube"
+      "unit": ""
     },
-	{
+    {
       "name": "Oeuf",
       "unit": ""
     },
     {
       "name": "Bouillon de légumes",
-      "unit": "cube"
+      "unit": ""
     },
     {
       "name": "Clous de girofle",
@@ -370,7 +382,7 @@
     },
     {
       "name": "Cognac",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Cornichons",
@@ -378,7 +390,7 @@
     },
     {
       "name": "Coulis de tomates",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Cumin en graine",
@@ -394,15 +406,15 @@
     },
     {
       "name": "Curry",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Câpres",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Fécule de maïs",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Gros sel",
@@ -422,7 +434,7 @@
     },
     {
       "name": "Lait de coco",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Moutarde",
@@ -430,27 +442,27 @@
     },
     {
       "name": "Moutarde anglaise",
-      "unit": "càc"
+      "unit": ""
     },
     {
       "name": "Moutarde à l'ancienne",
-      "unit": "càs"
+      "unit": ""
     },
     {
       "name": "Olives noires",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Olives vertes",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Pain de mie",
-      "unit": "tranche"
+      "unit": ""
     },
     {
       "name": "Pain rassis",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Pain sésame",
@@ -465,12 +477,12 @@
       "unit": ""
     },
     {
-      "name": "Piment Jalapenos",
+      "name": "Piment rouge / Jalapenos",
       "unit": ""
     },
     {
       "name": "Piquillos",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Poivre en poudre",
@@ -482,23 +494,31 @@
     },
     {
       "name": "Pâte de curry",
-      "unit": "càs"
+      "unit": ""
+    },
+    {
+      "name": "Pâtes diverses",
+      "unit": ""
     },
     {
       "name": "Riz",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Riz arborio",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Safran",
-      "unit": "pincée"
+      "unit": ""
+    },
+    {
+      "name": "Sauce Caesar",
+      "unit": ""
     },
     {
       "name": "Sauce Worcestershire",
-      "unit": "càs"
+      "unit": ""
     },
     {
       "name": "Sauce burger",
@@ -510,19 +530,19 @@
     },
     {
       "name": "Sucre semoule",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Vin blanc",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Vin rouge tannique",
-      "unit": "bouteille"
+      "unit": ""
     },
-	{
+    {
       "name": "Bière type lambic",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Bouquet garni",
@@ -530,23 +550,35 @@
     },
     {
       "name": "Cerfeuil frais",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Chapelure",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Vinaigre blanc",
-      "unit": "càs"
+      "unit": ""
+    },
+    {
+      "name": "Clou de girofle",
+      "unit": ""
     },
     {
       "name": "Concentré de tomate",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Coriandre en poudre",
-      "unit": "càc"
+      "unit": ""
+    },
+    {
+      "name": "Cornichon",
+      "unit": ""
+    },
+    {
+      "name": "Cube de bouillon de Boeuf",
+      "unit": ""
     },
     {
       "name": "Curcuma en poudre",
@@ -554,7 +586,7 @@
     },
     {
       "name": "Curry de Madras",
-      "unit": "càc"
+      "unit": ""
     },
     {
       "name": "Eau",
@@ -566,41 +598,33 @@
     },
     {
       "name": "Estragon frais",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Farine",
-      "unit": "g"
+      "unit": ""
     },
-	{
-	  "name": "Galette de maïs",
-	  "unit": ""
-	},
-	{
+    {
       "name": "Jaune d'Oeuf",
       "unit": ""
     },
     {
       "name": "Fond de boeuf",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Fécule de pdt",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Graines de coriandre",
       "unit": ""
     },
-	{
+    {
       "name": "Huile d'olive",
       "unit": ""
     },
-	{
-	  "name": "Huile d'olive S",
-	  "unit": "g"
-	},
-	{
+    {
       "name": "Origan séché",
       "unit": ""
     },
@@ -608,21 +632,21 @@
       "name": "Pain d'épice",
       "unit": ""
     },
-	{
+    {
       "name": "Haricots rouges en conserve",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Lentilles corail",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Pesto genovese",
-      "unit": "càs"
+      "unit": ""
     },
     {
       "name": "Pignons de pin",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Piment Jalapenos",
@@ -633,16 +657,20 @@
       "unit": ""
     },
     {
+      "name": "Poivre",
+      "unit": ""
+    },
+    {
       "name": "Poivre moulu",
       "unit": ""
     },
     {
       "name": "Poudre de piment",
-      "unit": "càs"
+      "unit": ""
     },
     {
       "name": "Pâte bucatini",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Pâte brisée",
@@ -650,7 +678,7 @@
     },
     {
       "name": "Pâte macaroni",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Pâte à pizza",
@@ -658,15 +686,15 @@
     },
     {
       "name": "Pâtes ditalini",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Pâtes penne",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Pâtes ziti",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Pâtes à lasagne",
@@ -674,43 +702,43 @@
     },
     {
       "name": "Raisins secs",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Épices chili",
-      "unit": "paquet"
+      "unit": ""
     },
     {
       "name": "Lentilles vertes",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Malloreddus",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Mie de pain",
-      "unit": "g"
+      "unit": ""
     },
-	{
+    {
       "name": "Vin blanc sec",
-      "unit": "L"
+      "unit": ""
     },
     {
       "name": "Vinaigre de vin rouge",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Noix de muscade",
       "unit": ""
     },
-	{
+    {
       "name": "Pâte spaghetti",
-      "unit": "g"
+      "unit": ""
     },
     {
       "name": "Vinaigre de vin",
-      "unit": "L"
+      "unit": ""
     }
   ]
 }
