@@ -273,7 +273,7 @@
       "unit": ""
     }
   ],
-  "crèmerie": [
+  "cremerie": [
     {
       "name": "Beurre doux",
       "unit": "g"
@@ -351,7 +351,7 @@
       "unit": "g"
 	}
   ],
-  "épicerie": [
+  "epicerie": [
     {
       "name": "Bouillon de boeuf",
       "unit": "cube"

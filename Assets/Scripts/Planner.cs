@@ -26,12 +26,14 @@ public class Planner : MonoBehaviour
     {
         mealPlanned = new Meal[7,3];
 
+
     }
 
     public void SetMeal(Meal meal)
     {
         mealPlanned[currentDay,currentNb] = meal;
-        //Debug.Log(mealPlanned[currentDay,currentNb].name);
+
+        SavePlanInBrowser();
     }
 
     public void RemoveMeal()
@@ -184,6 +186,52 @@ public class Planner : MonoBehaviour
         foreach(Transform item in cartGrid)
         {
             Destroy(item.gameObject);
+        }
+    }
+
+
+    public void SavePlanInBrowser()
+    {
+        MealPlannedData data = new MealPlannedData();
+
+        for (int day = 0; day < 7; day++)
+        {
+            for (int slot = 0; slot < 3; slot++)
+            {
+                Meal meal = mealPlanned[day, slot];
+                if (meal != null)
+                {
+                    MealWrapper wrapper = new MealWrapper();
+                    wrapper.day = day;
+                    wrapper.slot = slot;
+                    wrapper.meal = meal;
+                    data.meals.Add(wrapper);
+
+                    Debug.Log(data.meals[0].meal.name);
+                }
+            }
+        }
+
+        string json = JsonUtility.ToJson(data);
+        PlayerPrefs.SetString("MealPlanned", json);
+        PlayerPrefs.Save();
+
+        Debug.Log("Saving In Browser");
+    }
+
+    public void LoadPlan()
+    {
+        if (PlayerPrefs.HasKey("MealPlanned"))
+        {
+            string json = PlayerPrefs.GetString("MealPlanned");
+            MealPlannedData data = JsonUtility.FromJson<MealPlannedData>(json);
+
+            mealPlanned = new Meal[7, 3];
+
+            foreach (MealWrapper wrapper in data.meals)
+            {
+                mealPlanned[wrapper.day, wrapper.slot] = wrapper.meal;
+            }
         }
     }
 

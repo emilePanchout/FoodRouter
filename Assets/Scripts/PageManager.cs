@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class PageManager : MonoBehaviour
 {
-
     [Header("General")]
     public List<GameObject> pageList = new List<GameObject>();
     public Planner planner;
@@ -16,29 +15,37 @@ public class PageManager : MonoBehaviour
     public MealLoader mealLoader;
 
     [Header("CartPage")]
-
     public Color hasMealColor;
     public Color noMealColor;
 
-
-    public void Start()
+    private void Start()
     {
-        ChangePage(0);
+        // Exécute le changement de page après le prochain cycle pour éviter une récursion du PlayerLoop
+        StartCoroutine(InitNextFrame());
     }
 
+    private IEnumerator InitNextFrame()
+    {
+        yield return null; // attend la fin de la frame actuelle
+        ChangePage(0);
+        LoadAllMeal();
+    }
+
+    /// <summary>
+    /// Active uniquement la page d'index x et désactive les autres
+    /// </summary>
     public void ChangePage(int x)
     {
-        foreach (GameObject page in pageList)
+        // Ne pas inclure le GameObject porteur du PageManager dans pageList
+        for (int i = 0; i < pageList.Count; i++)
         {
-            page.SetActive(false);
-            pageList[x].SetActive(true);
+            pageList[i].SetActive(i == x);
         }
     }
 
     public void GoToPlanningPage()
     {
         planner.ClearCartDisplay();
-
         ChangePage(0);
         planner.ResetDay();
         mealLoader.ResearchMeals("");
@@ -50,102 +57,87 @@ public class PageManager : MonoBehaviour
         planner.Calculator();
     }
 
+    // Pages de sélection par jour
+    public void GoToMondaySelectionPage(int nb) => OpenSelectionPage(0, nb);
+    public void GoToTuesdaySelectionPage(int nb) => OpenSelectionPage(1, nb);
+    public void GoToWednesdaySelectionPage(int nb) => OpenSelectionPage(2, nb);
+    public void GoToThursdaySelectionPage(int nb) => OpenSelectionPage(3, nb);
+    public void GoToFridaySelectionPage(int nb) => OpenSelectionPage(4, nb);
+    public void GoToSaturdaySelectionPage(int nb) => OpenSelectionPage(5, nb);
+    public void GoToSundaySelectionPage(int nb) => OpenSelectionPage(6, nb);
 
-
-
-    public void GoToMondaySelectionPage(int nb)
+    private void OpenSelectionPage(int day, int nb)
     {
         ChangePage(1);
-        planner.SetDay(0, nb);
-        SetMealDisplay();
-    }
-    public void GoToTuesdaySelectionPage(int nb)
-    {
-        ChangePage(1);
-        planner.SetDay(1, nb);
-        SetMealDisplay();
-    }
-    public void GoToWednesdaySelectionPage(int nb)
-    {
-        ChangePage(1);
-        planner.SetDay(2, nb);
-        SetMealDisplay();
-    }
-    public void GoToThursdaySelectionPage(int nb)
-    {
-        ChangePage(1);
-        planner.SetDay(3, nb);
-        SetMealDisplay();
-    }
-    public void GoToFridaySelectionPage(int nb)
-    {
-        ChangePage(1);
-        planner.SetDay(4, nb);
-        SetMealDisplay();
-    }
-    public void GoToSaturdaySelectionPage(int nb)
-    {
-        ChangePage(1);
-        planner.SetDay(5, nb);
-        SetMealDisplay();
-    }
-    public void GoToSundaySelectionPage(int nb)
-    {
-        ChangePage(1);
-        planner.SetDay(6, nb);
+        planner.SetDay(day, nb);
         SetMealDisplay();
     }
 
-    // If Days and nb already set
     public void SetMeal(Meal meal)
     {
         planner.SetMeal(meal);
         SetMealDisplay();
     }
 
-    // If Days and nb already set
     public void RemoveMeal()
     {
         planner.RemoveMeal();
         SetMealDisplay();
     }
 
-    // If Days and nb already set
     public void SetMealDisplay()
     {
-        if (planner.GetCurrentMeal() != null)
+        var current = planner.GetCurrentMeal();
+        int index = planner.currentDay * 3 + planner.currentNb;
+
+        if (current != null)
         {
-            selectionCurrentMealDisplay.text = planner.GetCurrentMeal().name;
-            planner.daysButtons[(planner.currentDay * 3) + planner.currentNb].GetComponentInChildren<TMP_Text>().text = planner.GetCurrentMeal().name;
-            planner.daysButtons[(planner.currentDay * 3) + planner.currentNb].GetComponent<Image>().color = hasMealColor;
+            selectionCurrentMealDisplay.text = current.name;
+            UpdateButtonDisplay(index, current.name, hasMealColor);
         }
         else
         {
-            selectionCurrentMealDisplay.text = "";
-            planner.daysButtons[(planner.currentDay * 3) + planner.currentNb].GetComponentInChildren<TMP_Text>().text = "+";
-            planner.daysButtons[(planner.currentDay * 3) + planner.currentNb].GetComponent<Image>().color = noMealColor;
+            selectionCurrentMealDisplay.text = string.Empty;
+            UpdateButtonDisplay(index, "+", noMealColor);
             mealLoader.ResetScroller();
         }
-
     }
 
-    public void ResetDayDisplay(int x)
+    private void UpdateButtonDisplay(int index, string text, Color color)
     {
-        for(int i = 0; i < 3; i++)
+        var button = planner.daysButtons[index];
+        button.GetComponentInChildren<TMP_Text>().text = text;
+        button.GetComponent<Image>().color = color;
+    }
+
+    public void ResetDayDisplay(int day)
+    {
+        for (int nb = 0; nb < 3; nb++)
         {
-            planner.SetDay(x, i);
+            planner.SetDay(day, nb);
             RemoveMeal();
         }
-
         planner.ResetDay();
     }
 
     public void ResetAllDaysDisplay()
     {
-        for(int i = 0; i < 7; i++)
-        {
-            ResetDayDisplay(i);
-        }
+        for (int day = 0; day < 7; day++)
+            ResetDayDisplay(day);
     }
 
+    public void LoadAllMeal()
+    {
+        planner.LoadPlan();
+
+        for (int day = 0; day < 7; day++)
+        {
+            for (int nb = 0; nb < 3; nb++)
+            {
+                planner.SetDay(day, nb);
+                SetMealDisplay();
+            }
+        }
+        planner.ResetDay();
+    }
 }
